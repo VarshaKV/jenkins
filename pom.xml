@@ -37,11 +37,11 @@
   <distributionManagement>
   		<repository>
     		<id>mycompany</id>
-    		<url>http://localhost:8088/.m2/repository/com/mycompany</url>
+    		<url>http://127.0.0.1:7070/.m2/repository/com/mycompany</url>
   		</repository>
   		<snapshotRepository>
    		<id>my-app</id>
-    		<url>http://localhost:8088/.m2/repository/com/mycompany/app/my-app</url>
+    		<url>http://127.0.0.1:7070/.m2/repository/com/mycompany/app/my-app</url>
  		</snapshotRepository>
 </distributionManagement>
 </project>

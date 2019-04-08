@@ -34,4 +34,14 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+  		<repository>
+    		<id>mycompany</id>
+    		<url>http://localhost:8088/.m2\repository/com/mycompany</url>
+  		</repository>
+  		<snapshotRepository>
+   		<id>my-app</id>
+    		<url>http://localhost:8088/.m2\repository/com/mycompany/app/my-app</url>
+ 		</snapshotRepository>
+</distributionManagement>
 </project>
